@@ -83,4 +83,4 @@ The model that performed the best out of this selection was the Easy Ensemble Ad
 
 ### Recommendation
 
- It is recommended that the business look for alternative machine learning models to help in the decision making process. In the best case scenario, the best performing model (AdaBoost Classifier) correctly guesses a high risk client approximately 9/100 times, the other 91 times would result in rejected clients that would have been likely to repay their loans.)
+ It is recommended that the business look for alternative machine learning models to help in the decision making process. In the best case scenario, the best performing model (AdaBoost Classifier) correctly guesses a high risk client approximately 9/100 times, the other 91 times would result in rejected clients that would have been likely to repay their loans.
