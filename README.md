@@ -12,12 +12,12 @@ This analysis employs the pandas, scikit-learn, and imbalanced-learn python libr
 
 ## Results
 
-The results here will highlight each model's performance when it comes to accurately predicting high risk clients, as avoiding high risk loans will save the business more money.
+The results here will highlight each model's performance when it comes to predicting high risk clients, as avoiding high risk loans will save the business more money.
 
 ### Naive Random Oversampling
 
-![INSERT PICTURE HERE]
-![INSERT PICTURE HERE]
+![ba-oversampling](https://github.com/juberr/credit_risk_analysis/blob/main/pics/ba_ros.png?raw=true)
+![class-oversampling](https://github.com/juberr/credit_risk_analysis/blob/main/pics/class_ros.png?raw=true)
 
 Key Metrics:
 * Balanced Accuracy: 65%
@@ -26,8 +26,8 @@ Key Metrics:
 
 ### SMOTE Oversampling
 
-![INSERT PICTURE HERE]
-![INSERT PICTURE HERE]
+![ba-smote](https://github.com/juberr/credit_risk_analysis/blob/main/pics/ba_sm.png?raw=true)
+![class-smote](https://github.com/juberr/credit_risk_analysis/blob/main/pics/class_sm.png?raw=true)
 
 Key Metrics:
 * Balanced Accuracy: 66%
@@ -36,8 +36,8 @@ Key Metrics:
 
 ### Cluster Centroids Undersampling
 
-![INSERT PICTURE HERE]
-![INSERT PICTURE HERE]
+![ba-us](https://github.com/juberr/credit_risk_analysis/blob/main/pics/ba_us.png?raw=true)
+![class-us](https://github.com/juberr/credit_risk_analysis/blob/main/pics/class_us.png?raw=true)
 
 Key Metrics:
 * Balanced Accuracy: 54%
@@ -46,8 +46,8 @@ Key Metrics:
 
 ### SMOTEENN Combination Over/Undersampling
 
-![INSERT PICTURE HERE]
-![INSERT PICTURE HERE]
+![ba-st](https://github.com/juberr/credit_risk_analysis/blob/main/pics/ba_st.png?raw=true)
+![class-st](https://github.com/juberr/credit_risk_analysis/blob/main/pics/class_st.png?raw=true)
 
 Key Metrics:
 * Balanced Accuracy: 64%
@@ -57,8 +57,8 @@ Key Metrics:
 
 ### Balanced Random Forest Classifier, Easy Ensemble AdaBoost Classifier
 
-![INSERT PICTURE HERE]
-![INSERT PICTURE HERE]
+![ba-rf](https://github.com/juberr/credit_risk_analysis/blob/main/pics/ba_rf.png?raw=true)
+![class-rf](https://github.com/juberr/credit_risk_analysis/blob/main/pics/class_rf.png?raw=true)
 
 Key Metrics:
 * Balanced Accuracy: 79%
@@ -67,8 +67,8 @@ Key Metrics:
 
 ### Easy Ensemble AdaBoost Classifier
 
-![INSERT PICTURE HERE]
-![INSERT PICTURE HERE]
+![ba-eec](https://github.com/juberr/credit_risk_analysis/blob/main/pics/ba_eec.png?raw=true)
+![class-eec](https://github.com/juberr/credit_risk_analysis/blob/main/pics/class_eec.png?raw=true)
 
 Key Metrics:
 * Balanced Accuracy: 93%
