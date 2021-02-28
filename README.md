@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The world of machine learning offers a wide variety of models that make predictions on your dataset to varying degrees of accuracy (degrees of precision and recall as well). To test which one is the best for assessing risk in the field of credit, six supervised machine learning models were trained on the same data set and the results of their performance were stored in confusion matrices and classification reports. The six models in question are: Naive Random Oversampling, SMOTE Oversampling,  Cluster Centroids Undersampling, SMOTEENN combination Over and Undersampling, Balanced Random Forest Classifier, Easy Ensemble AdaBoost Classifier.
+The world of machine learning offers a wide variety of models that make predictions on your dataset to varying degrees of accuracy (degrees of precision and recall as well). To test which one is the best for assessing risk in the field of credit, six supervised machine learning models were trained on the same data set and the results of their key performance metrics are presented in this report. The six models in question are: Naive Random Oversampling, SMOTE Oversampling,  Cluster Centroids Undersampling, SMOTEENN combination Over and Undersampling, Balanced Random Forest Classifier, Easy Ensemble AdaBoost Classifier.
 
 ### Resources
 
